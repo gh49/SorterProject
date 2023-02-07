@@ -30,5 +30,8 @@ public class Sorter {
             arr[i] = smallerNumber;  
         }  
     }
+    public static void sort(int[] arr){
+        insertionSort(arr);
+    }
     }
 
